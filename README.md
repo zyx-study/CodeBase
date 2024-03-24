@@ -1,6 +1,6 @@
 # CodeBase
 
-## Losses_1
+## Image_assessment
 1. PSNR, psnr, mse
 2. SSIM, MS_SSIM, ssim, ms_ssim
 3. LPIPS
@@ -11,10 +11,14 @@
 8. TV, tv
 9. FSIM, fsim, pc_filters, phase_congruency
 10. FID
-11. contextual_loss, ContextualLoss  # CX 对显存要求特别大
-12. _ContextualBilateralLoss # Cobi 对显存要求特别大,VGG模式更大
+11. nima (神经图像评估)1-10分的概率，无参考图像评估  
 
-## Model_Classfication
+
+## Losses_1
+1. contextual_loss, ContextualLoss  # CX 对显存要求特别大
+2. _ContextualBilateralLoss # Cobi 对显存要求特别大,VGG模式更大
+
+## Model_Classification
 1. AlexNet
 2. ResNet18
 3. MobileNetV3_Small, MobileNetV3_Large
