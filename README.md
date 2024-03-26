@@ -30,6 +30,7 @@
 
 1. contextual_loss, ContextualLoss # CX 对显存要求特别大
 2. _ContextualBilateralLoss # Cobi 对显存要求特别大,VGG模式更大
+3. PerceptualLoss
 
 ## Model_Classification
 
